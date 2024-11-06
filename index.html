@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoGenie - Online Tools</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="header-container">
+    <video autoplay muted loop class="logo-video">
+        <source src="AutoGenie.mp4" type="video/mp4"> 
+        <source src="AutoGenie.webm" type="video/webm">
+    </video>
+    <div class="header-text">
+        <h1>Welcome to AutoGenie</h1><br>
+        <p>Your Personal Assistant for Effortless Creation!</p>
+        <div class="search-box">
+        <input type="text" placeholder="Search tools..." id="search-input">
+        <button onclick="searchTools()">Search</button>
+        </div>
+       </div>
+      </div>
+    </header>
+    <main>
+        <section class="tool-section">
+            <div class="tool-card">
+                <h2>Password Generator</h2>
+                <p>Generate secure and random passwords for your accounts.</p>
+                <a href="index1.html" class="btn">Get Started</a>
+            </div>
+            <div class="tool-card">
+                <h2>Resume Builder</h2>
+                <p>Create professional resumes effortlessly.</p>
+                <a href="index2.html" class="btn">Get Started</a>
+            </div> 
+            <div class="tool-card">
+                <h2>To-Do List</h2>
+                <p>Keep track of your tasks and stay organized.</p>
+                <a href="to-do-list.html" class="btn">Get Started</a>
+            </div>
+            <div class="tool-card">
+                <h2>QR Code Generator</h2>
+                <p>Create QR codes for URLs and other information.</p>
+                <a href="qr-code-generator.html" class="btn">Get Started</a>
+            </div>
+            <div class="tool-card">
+                <h2>Fitness Tracker</h2>
+                <p>Track your fitness journey.</p>
+                <a href="index3.php" class="btn">Get Started</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 AutoGenie. All Rights Reserved.</p>
+    </footer>
+    <button id="back-to-top" class="back-to-top" onclick="scrollToTop()">↑</button>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
+
+

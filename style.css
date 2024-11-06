@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #e0e0e0; /* Light text color */
+}
+
+.container {
+    background-color: #1e1e1e; /* Dark background for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Stronger shadow */
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff; /* Light color for the heading */
+}
+
+.generator, .options {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 1px solid #555; /* Darker border for input fields */
+    background-color: #333; /* Dark input background */
+    color: #ffffff; /* Light text color */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745; /* Green background for the button */
+    color: white; /* White text for the button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #b0b0b0; /* Light color for labels */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+

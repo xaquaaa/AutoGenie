@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #1e1e1e; /* Dark container background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* Stronger shadow for dark theme */
+    overflow-y: auto;
+    max-height: 90vh;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* Light color for the heading */
+    margin-bottom: 20px;
+}
+
+.form-section, .resume-preview {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #cccccc; /* Light color for labels */
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #555; /* Dark border */
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff; /* Light text color */
+    background-color: #333333; /* Dark input background */
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #28a745; /* Green button for contrast */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.resume-preview {
+    border-top: 2px solid #444444; /* Darker border for the preview */
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#resume {
+    background-color: #1a1a1a; /* Dark background for the resume */
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid #444444; /* Dark border */
+    font-family: 'Roboto', sans-serif;
+}
+
+#resume h3 {
+    font-size: 28px;
+    color: #ffffff; /* Light color for headings */
+    margin-bottom: 5px;
+    font-weight: 700;
+    border-bottom: 2px solid #555555; /* Darker border */
+    padding-bottom: 10px;
+}
+
+#resume h4 {
+    font-size: 20px;
+    color: #ffffff; /* Light color for subheadings */
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 1px solid #444444; /* Darker border */
+    padding-bottom: 5px;
+}
+
+#resume p {
+    font-size: 16px;
+    color: #bbbbbb; /* Lighter text for paragraph */
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+#resume p strong {
+    color: #ffffff; /* Strong text in white */
+}
+
+#resume hr {
+    border: 0;
+    border-top: 1px solid #444444;
+    margin: 20px 0;
+}
+
+#profile-pic {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#downloadButton {
+    margin-top: 20px;
+    display: none;
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue download button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#downloadButton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
